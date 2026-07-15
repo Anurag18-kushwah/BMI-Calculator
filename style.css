@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+}
+form{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+}
+
+.input div{
+    display: flex;
+    align-items: center;
+}
+
+.input label{
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+}
+.input input{
+    width: 190px;
+    height: 17px;
+}
+#button{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+h4{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+p{
+    margin-left: 20px;
+}
+.results{
+    font-size: larger;
+    display: flex;
+    width: fit-content;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    color: chocolate;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+}
+.container{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 550px;
+    margin-top: 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 10px;
+}
